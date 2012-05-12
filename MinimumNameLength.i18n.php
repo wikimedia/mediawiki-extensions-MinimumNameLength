@@ -384,6 +384,14 @@ $messages['ms'] = array(
 	'minnamelength-desc' => 'Menetapkan kepanjangan minimum nama pengguna',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['nb'] = array(
+	'minnamelength-error' => 'Brukernavnet ditt er for kort. Minimumslengden er $1.',
+	'minnamelength-desc' => 'Gjør det mulig å innføre en minstelengde på brukernavn',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -395,18 +403,11 @@ $messages['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'minnamelength-error' => 'Brukarnamnet ditt er for kort. Minimumslengda er $1.',
 	'minnamelength-desc' => 'Gjer det mogleg å innføra ei minstelengd på brukarnamn.',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
-$messages['nb'] = array(
-	'minnamelength-error' => 'Brukernavnet ditt er for kort. Minimumslengden er $1.',
-	'minnamelength-desc' => 'Gjør det mulig å innføre en minstelengde på brukernavn',
 );
 
 /** Occitan (Occitan)
@@ -547,7 +548,7 @@ $messages['tg-cyrl'] = array(
 	'minnamelength-error' => 'Номи корбарии шумо хеле кӯтоҳ аст. Дарозии он дасти кам $1 бошад.',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
