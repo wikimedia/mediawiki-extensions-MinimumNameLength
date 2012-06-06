@@ -328,6 +328,14 @@ $messages['km'] = array(
 	'minnamelength-desc' => 'បង្ខំឱ្យមាន​ប្រវែងអត្តនាម​ជាអប្បបរមា',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'minnamelength-error' => '사용자 이름이 너무 짧습니다. 최소 길이는 $1입니다.',
+	'minnamelength-desc' => '최소 사용자 이름 길이 적용',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
