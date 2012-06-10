@@ -285,10 +285,11 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'minnamelength-error' => 'あなたの利用者名は短すぎます。最短の長さは $1 です。',
-	'minnamelength-desc' => '利用者名に最短長を設ける',
+	'minnamelength-desc' => '利用者名の長さに最小値を設ける',
 );
 
 /** Javanese (Basa Jawa)
