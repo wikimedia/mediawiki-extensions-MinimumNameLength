@@ -41,7 +41,7 @@ $messages['arz'] = array(
 	'minnamelength-desc' => 'يجبر على طول أدنى لاسم اليوزر',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -73,7 +73,7 @@ $messages['be-tarask'] = array(
 	'minnamelength-desc' => 'Правярае мінімальную даўжыню імя ўдзельніка',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  * @author Spiritia
  */
@@ -82,7 +82,7 @@ $messages['bg'] = array(
 	'minnamelength-desc' => 'Налагане на ограничение за минимална дължина на потребителското име',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -90,7 +90,7 @@ $messages['br'] = array(
 	'minnamelength-desc' => 'Termeniñ a ra un hed bihanañ evit un anv implijer',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -98,7 +98,7 @@ $messages['bs'] = array(
 	'minnamelength-desc' => 'Onemogućava unos prekratkih korisničkih imena',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  * @author Solde
  */
@@ -156,7 +156,7 @@ $messages['eo'] = array(
 	'minnamelength-desc' => 'Divigi minimuman longecon de salutnomo',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  * @author Sanbec
  */
@@ -165,7 +165,7 @@ $messages['es'] = array(
 	'minnamelength-desc' => 'Exige una longitud mínima para el nombre de usuario',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  * @author Pikne
  */
@@ -173,7 +173,7 @@ $messages['et'] = array(
 	'minnamelength-error' => 'Sinu kasutajanimi on liiga lühike. Alammääraline pikkus on $1.',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Kobazulo
  */
 $messages['eu'] = array(
@@ -181,7 +181,7 @@ $messages['eu'] = array(
 	'minnamelength-desc' => 'Lankide izenaren luzera minimoa ezarri',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Nike
  */
@@ -190,7 +190,7 @@ $messages['fi'] = array(
 	'minnamelength-desc' => 'Asettaa käyttäjätunnuksille vähimmäispituuden.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Ashar Voultoiz
  * @author Urhixidur
  */
@@ -233,7 +233,7 @@ $messages['hi'] = array(
 	'minnamelength-desc' => 'कमसेकम आवश्यक सदस्यनाम लंबाई दें',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dnik
  * @author Ex13
  */
@@ -250,7 +250,7 @@ $messages['hsb'] = array(
 	'minnamelength-desc' => 'Minimalnu dołhosć wužiwarskeho mjena wunuzować',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -258,7 +258,7 @@ $messages['hu'] = array(
 	'minnamelength-desc' => 'Kötelezővé tesz egy minimális hosszt a felhasználói neveknél',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -275,7 +275,7 @@ $messages['id'] = array(
 	'minnamelength-desc' => 'Gunakan panjang minimal untuk nama pengguna',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -354,7 +354,7 @@ $messages['lb'] = array(
 	'minnamelength-desc' => 'Eng Mindestlängt vum Benotzrnumm verlaangen',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Xil
  */
 $messages['lv'] = array(
@@ -362,7 +362,7 @@ $messages['lv'] = array(
 	'minnamelength-desc' => 'Ieviest minimālo lietotājvārda garumu',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -410,7 +410,7 @@ $messages['nl'] = array(
 	'minnamelength-desc' => 'Laat toe om een minimumlengte voor gebruikersnamen te bepalen',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -419,7 +419,7 @@ $messages['nn'] = array(
 	'minnamelength-desc' => 'Gjer det mogleg å innføra ei minstelengd på brukarnamn.',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -427,7 +427,7 @@ $messages['oc'] = array(
 	'minnamelength-desc' => 'Exigís una longor minimala per un nom d’utilizaire.',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Derbeth
  * @author McMonster
  * @author Sp5uhe
@@ -453,7 +453,7 @@ $messages['ps'] = array(
 	'minnamelength-error' => 'ستاسې کارن-نوم ډېر لنډ دی. پکار ده چې کارن-نوم مو لږ تر لږه $1 توري ولري.',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Malafaya
  */
 $messages['pt'] = array(
@@ -461,7 +461,7 @@ $messages['pt'] = array(
 	'minnamelength-desc' => 'Obrigar a um comprimento mínimo do nome de utilizador',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
@@ -469,7 +469,7 @@ $messages['pt-br'] = array(
 	'minnamelength-desc' => 'Obrigar a um comprimento mínimo do nome de utilizador',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
@@ -477,7 +477,7 @@ $messages['ro'] = array(
 	'minnamelength-desc' => 'Impune o lungime minimă a numelui de utilizator',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -485,7 +485,7 @@ $messages['roa-tara'] = array(
 	'minnamelength-desc' => "Forze a 'a lunghezza minime d'u nome de l'utende",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -493,7 +493,7 @@ $messages['ru'] = array(
 	'minnamelength-desc' => 'Устанавливает минимальную длину имени участника',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -501,7 +501,7 @@ $messages['sk'] = array(
 	'minnamelength-desc' => 'Vynútiť minimálnu dĺžku používateľského mena',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -510,7 +510,7 @@ $messages['sr-ec'] = array(
 	'minnamelength-desc' => 'Одређује минималну дужину корисничког имена',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -534,7 +534,7 @@ $messages['su'] = array(
 	'minnamelength-desc' => 'Paké panjang saeutikna pikeun ngaran pamaké',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author M.M.S.
  */
 $messages['sv'] = array(
@@ -550,14 +550,14 @@ $messages['te'] = array(
 	'minnamelength-desc' => 'కనిష్ఠ వాడుకరిపేరు పొడవుని నిర్ధేశించండి',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
 	'minnamelength-error' => 'Номи корбарии шумо хеле кӯтоҳ аст. Дарозии он дасти кам $1 бошад.',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -580,7 +580,7 @@ $messages['tr'] = array(
 	'minnamelength-desc' => 'Kullanıcı adı asgari uzunluğu uygular',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Alex Khimich
  */
 $messages['uk'] = array(
@@ -588,7 +588,7 @@ $messages['uk'] = array(
 	'minnamelength-desc' => 'Встановлення мінімальної довжини імені користувача',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -627,14 +627,14 @@ $messages['yue'] = array(
 	'minnamelength-error' => '你嘅用戶名太短喇。最少嘅長度係$1個字元。',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Shinjiman
  */
 $messages['zh-hans'] = array(
 	'minnamelength-error' => '你的用户名太短。最少的长度是$1个字元。',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  * @author Shinjiman
  */
