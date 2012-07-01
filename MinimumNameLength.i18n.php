@@ -64,7 +64,7 @@ $messages['bcl'] = array(
 	'minnamelength-error' => 'An saimong username halîpoton. An minimum na labâ $1.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -131,7 +131,7 @@ $messages['de-formal'] = array(
 	'minnamelength-error' => 'Ihr Benutzername ist zu kurz. Die Mindestlänge beträgt $1 Zeichen.',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -199,7 +199,7 @@ $messages['fr'] = array(
 	'minnamelength-desc' => 'Exige une longueur minimale pour un nom d’utilisateur.',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  * @author Xosé
  */
@@ -242,7 +242,7 @@ $messages['hr'] = array(
 	'minnamelength-desc' => 'Odredi najmanju dužinu suradničkog imena',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
