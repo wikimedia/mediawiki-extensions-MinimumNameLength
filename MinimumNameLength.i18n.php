@@ -393,9 +393,7 @@ $messages['ms'] = array(
 	'minnamelength-desc' => 'Menetapkan kepanjangan minimum nama pengguna',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'minnamelength-error' => 'Brukernavnet ditt er for kort. Minimumslengden er $1.',
 	'minnamelength-desc' => 'Gjør det mulig å innføre en minstelengde på brukernavn',
