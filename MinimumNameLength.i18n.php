@@ -540,6 +540,13 @@ $messages['sv'] = array(
 	'minnamelength-desc' => 'Inför en minimumlängd på användarnamn',
 );
 
+/** Tamil (தமிழ்)
+ * @author Shanmugamp7
+ */
+$messages['ta'] = array(
+	'minnamelength-error' => 'உங்கள் பயனர் பெயர் குறுகியதாக உள்ளது. குறைந்த பட்ச நீளம் $1.',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
