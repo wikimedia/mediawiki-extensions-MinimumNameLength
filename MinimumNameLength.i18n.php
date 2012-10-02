@@ -64,7 +64,7 @@ $messages['bcl'] = array(
 	'minnamelength-error' => 'An saimong username halîpoton. An minimum na labâ $1.',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -124,7 +124,7 @@ $messages['de'] = array(
 	'minnamelength-desc' => 'Ermöglicht die Festlegung einer Mindestlänge für Benutzernamen',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Imre
  */
 $messages['de-formal'] = array(
@@ -393,7 +393,7 @@ $messages['ms'] = array(
 	'minnamelength-desc' => 'Menetapkan kepanjangan minimum nama pengguna',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'minnamelength-error' => 'Brukernavnet ditt er for kort. Minimumslengden er $1.',
 	'minnamelength-desc' => 'Gjør det mulig å innføre en minstelengde på brukernavn',
@@ -408,7 +408,7 @@ $messages['nl'] = array(
 	'minnamelength-desc' => 'Laat toe om een minimumlengte voor gebruikersnamen te bepalen',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -499,7 +499,7 @@ $messages['sk'] = array(
 	'minnamelength-desc' => 'Vynútiť minimálnu dĺžku používateľského mena',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -508,7 +508,7 @@ $messages['sr-ec'] = array(
 	'minnamelength-desc' => 'Одређује минималну дужину корисничког имена',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -632,14 +632,14 @@ $messages['yue'] = array(
 	'minnamelength-error' => '你嘅用戶名太短喇。最少嘅長度係$1個字元。',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Shinjiman
  */
 $messages['zh-hans'] = array(
 	'minnamelength-error' => '你的用户名太短。最少的长度是$1个字元。',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  * @author Shinjiman
  */
