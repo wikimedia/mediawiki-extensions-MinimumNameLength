@@ -1,13 +1,13 @@
-MINIMUM NAME LENGTH EXTENSION
-Version 1.0
+The Minimum Name Length extension to MediaWiki.
 
 Copyright © 2007 Rob Church.
 All rights reserved.
-Please see the LICENCE file for terms of use and redistribution
+
+Please see the COPYING file for terms of use and redistribution
 
 == Introduction ==
 
-This extension introduces a new configuration variable,
+This extension introduces a new configuration parameter called
 $wgMinimumNameLength, which can be used to enforce a minimum
 username length during user account creation.
 
@@ -18,34 +18,31 @@ measures.
 
 This extension requires:
 
-* PHP 5.0.x (5.1.x *strongly recommended*) or above
-* MediaWiki 1.11.0 or above
+* PHP 5.3.3 or above
+* MediaWiki 1.17.0 or above
+
+See also the CHANGELOG for further information.
 
 == Installation ==
 
-To install the extension, please download or check out all files from
-the Subversion repository, and place them in a "MinimumNameLength" directory
-within your MediaWiki extensions directory.
+To install this extension, please download the tarball and extract all
+files or clone all files from the Git repository to the "MinimumNameLength"
+directory within your MediaWiki extensions directory.
 
-You then need to edit your LocalSettings.php file, and add the following
-line, somewhere near the bottom:
+You then need to edit your "LocalSettings.php" file and add the following
+line somewhere near the bottom:
 
-	require_once( "{$IP}/extensions/MinimumNameLength/MinimumNameLength.php" );
+ require_once "$IP/extensions/MinimumNameLength/MinimumNameLength.php";
 	
-Access the Special:Version page on your wiki to confirm the installation.
+Access the "Special:Version" page on your wiki to verify the installation.
 
 == Configuration ==
 
-To configure the minimum name length, set $wgMinimumNameLength in LocalSettings.php,
-*after* the call to include the extension, e.g.
+To configure the minimum name length, set $wgMinimumUsernameLength in your
+"LocalSettings.php" file *after* the call to include the extension, e.g.
 
-	require_once( "{$IP}/extensions/MinimumNameLength/MinimumNameLength.php" );
-	$wgMinimumNameLength = 10;
-	
-== Change log ==
-11/01/2008
-1.1
-	Uses wfLoadExtensionMessages now
-29/03/2007
-1.0
-	Initial release
+ require_once "$IP/extensions/MinimumNameLength/MinimumNameLength.php";
+ $wgMinimumUsernameLength = 8;
+
+By default the minimum username length is set to 10.
+

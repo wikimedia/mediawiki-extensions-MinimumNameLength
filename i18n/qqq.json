@@ -1,0 +1,11 @@
+{
+        "@metadata": {
+                "authors": [
+                        "Kghbln",
+			"Purodha",
+			"The Evil IP address"
+                ]
+        },
+        "minnamelength-desc": "{{desc|name=Minimum Name Length|url=https://www.mediawiki.org/wiki/Extension:Minimum_Name_Length}}",
+        "minnamelength-error": "This is an error message./n/n* $1 holds a number"
+}

@@ -1,32 +1,48 @@
 <?php
-if ( ! defined( 'MEDIAWIKI' ) )
-{
-	echo( "This file is an extension to the MediaWiki software. It cannot be used standalone.\n" );
-	exit( 1 );
-}
 /**
- * Extension enforces a minimum username length
+ * The Minimum Name Length extension enforces a minimum username length
  * during account registration
+ *
+ * @link https://www.mediawiki.org/wiki/Extension:Minimum_Name_Length Documentation
+ * @link https://www.mediawiki.org/wiki/Extension_talk:Mimimum_Name_Length Support
+ * @link https://git.wikimedia.org/summary/mediawiki%2Fextensions%2FMinimumNameLength.git Source Code
  *
  * @file
  * @ingroup Extensions
- * @author Rob Church <robchur@gmail.com>
+ *
+ * @author Rob Church (Robchurch) <robchur@gmail.com>
+ * @author Karsten Hoffmeyer (Kghbln) <karsten@hoffmeyer.info>
+ *
+ * @license http://www.opensource.org/licenses/BSD-2-Clause BSD 2-clause
  */
 
-/**
- * Minimum username length to enforce
- */
-$wgMinimumUsernameLength = 10;
+// Ensure that the script cannot be executed outside of MediaWiki
+if ( !defined( 'MEDIAWIKI' ) ) {
+    die( 'This is an extension to MediaWiki. It cannot be run standalone.\n' );
+}
 
+// Display extension's information on "Special:Version"
 $wgExtensionCredits['other'][] = array(
+	'path' => '__FILE__',
 	'name' => 'Minimum Username Length',
-	'version' => '1.1',
-	'author' => 'Rob Church',
+	'version' => '1.2.0',
+	'author' => array(
+		'Rob Church',
+		'Karsten Hoffmeyer',
+		'...'
+		),
 	'descriptionmsg' => 'minnamelength-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Minimum_Name_Length',
 );
 
-$wgExtensionMessagesFiles['MinimumNameLength'] = dirname(__FILE__) . '/MinimumNameLength.i18n.php';
+// Minimum username length to enforce
+$wgMinimumUsernameLength = 10;
+
+// Register extension messages
+$wgMessagesDirs['MinimumNameLength'] = __DIR__ . '/i18n';
+$wgExtensionMessagesFiles['MinimumNameLength'] = __DIR__ . '/MinimumNameLength.i18n.php';
+
+// Register hooks
 $wgHooks['AbortNewAccount'][] = 'efMinimumNameLength';
 
 /**
@@ -42,7 +58,7 @@ function efMinimumNameLength( $user, &$error ) {
 	global $wgMinimumUsernameLength;
 
 	if( mb_strlen( $user->getName() ) < $wgMinimumUsernameLength ) {
-		
+
 		$error = wfMsgHtml( 'minnamelength-error', $wgMinimumUsernameLength );
 		return false;
 	}

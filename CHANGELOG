@@ -1,0 +1,26 @@
+The CHANGELOG of the Minimum Name Length extension to MediaWiki.
+
+== Version 1.2.0 ==
+
+Released on November 12, 2015.
+
+* Added CHANGELOG
+* Improved file documentation
+* Improved extension documenatation
+* Introduced json based I18n
+* MediaWiki 1.17 or above
+* PHP 5.3 or above
+
+== Version 1.1.0 ==
+
+Released on January 11, 2008.
+
+* Uses wfLoadExtensionMessages now
+
+== Version 1.0 ==
+
+Release on March 29, 2007.
+
+* Initial release
+* MediaWiki 1.11 or above
+* PHP 5.0 or above
