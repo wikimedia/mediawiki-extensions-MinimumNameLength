@@ -1,5 +1,13 @@
 The CHANGELOG of the Minimum Name Length extension to MediaWiki.
 
+
+== Version 1.2.1 ==
+
+THIS IS NOT A RELEASE YET.
+
+* Migrated wfMsg* to wfMessage
+
+
 == Version 1.2.0 ==
 
 Released on November 12, 2015.
@@ -11,11 +19,23 @@ Released on November 12, 2015.
 * MediaWiki 1.17 or above
 * PHP 5.3 or above
 
+
+== Version 1.1.1 ==
+
+Released on October 2, 2012.
+
+* Removed wfLoadExtensionMessages
+* Removed $wgExtensionCredits['description']
+* Minor internal code changes
+* Numerous translation updates via translatewiki.net
+
+
 == Version 1.1.0 ==
 
 Released on January 11, 2008.
 
 * Uses wfLoadExtensionMessages now
+
 
 == Version 1.0 ==
 

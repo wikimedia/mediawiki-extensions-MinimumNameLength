@@ -25,7 +25,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path' => '__FILE__',
 	'name' => 'Minimum Username Length',
-	'version' => '1.2.0',
+	'version' => '1.2.1-alpha',
 	'author' => array(
 		'Rob Church',
 		'Karsten Hoffmeyer',
@@ -46,8 +46,7 @@ $wgExtensionMessagesFiles['MinimumNameLength'] = __DIR__ . '/MinimumNameLength.i
 $wgHooks['AbortNewAccount'][] = 'efMinimumNameLength';
 
 /**
- * Hooks account creation and checks the
- * username length, cancelling with an error
+ * Hooks account creation and checks the username length, cancelling with an error
  * if the username is too short
  *
  * @param User $user User object being created
@@ -59,7 +58,7 @@ function efMinimumNameLength( $user, &$error ) {
 
 	if( mb_strlen( $user->getName() ) < $wgMinimumUsernameLength ) {
 
-		$error = wfMsgHtml( 'minnamelength-error', $wgMinimumUsernameLength );
+		$error = wfMessage( 'minnamelength-error', $wgMinimumUsernameLength )->plain();
 		return false;
 	}
 
