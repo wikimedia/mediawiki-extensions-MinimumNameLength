@@ -5,6 +5,6 @@
 			"Kghbln"
 		]
 	},
-	"minnamelength-desc": "Allows to enforce a minimum username length",
-	"minnamelength-error": "Your username is too short. The minimum required length is $1."
+	"minimumnamelength-desc": "Allows to enforce a minimum username length",
+	"minimumnamelength-error": "Your username is too short. The minimum required length is $1."
 }

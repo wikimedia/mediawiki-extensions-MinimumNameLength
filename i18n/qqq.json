@@ -6,6 +6,6 @@
 			"The Evil IP address"
 		]
 	},
-	"minnamelength-desc": "{{desc|name=Minimum Name Length|url=https://www.mediawiki.org/wiki/Extension:Minimum_Name_Length}}",
-	"minnamelength-error": "This is an error message./n/n* $1 holds a static number from a configruation setting"
+	"minimumnamelength-desc": "{{desc|name=Minimum Name Length|url=https://www.mediawiki.org/wiki/Extension:Minimum_Name_Length}}",
+	"minimumnamelength-error": "This is an error message./n/n* $1 holds a static number from a configruation setting"
 }

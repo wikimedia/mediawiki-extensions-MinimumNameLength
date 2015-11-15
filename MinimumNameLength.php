@@ -31,7 +31,7 @@ $wgExtensionCredits['other'][] = array(
 		'Karsten Hoffmeyer',
 		'...'
 		),
-	'descriptionmsg' => 'minnamelength-desc',
+	'descriptionmsg' => 'minimumnamelength-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Minimum_Name_Length',
 );
 
@@ -58,7 +58,7 @@ function efMinimumNameLength( $user, &$error ) {
 
 	if( mb_strlen( $user->getName() ) < $wgMinimumUsernameLength ) {
 
-		$error = wfMessage( 'minnamelength-error', $wgMinimumUsernameLength )->plain();
+		$error = wfMessage( 'minimumnamelength-error', $wgMinimumUsernameLength )->plain();
 		return false;
 	}
 
