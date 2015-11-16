@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cvanca"
+		]
+	},
+	"minimumnamelength-error": "Vaše uživatelské jméno je příliš krátké. Minimální požadovaná délka je $1."
+}
