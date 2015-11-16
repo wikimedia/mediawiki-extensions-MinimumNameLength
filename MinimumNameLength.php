@@ -9,6 +9,7 @@
  *
  * @file
  * @ingroup Extensions
+ * @package MediaWiki
  *
  * @author Rob Church (Robchurch) <robchur@gmail.com>
  * @author Karsten Hoffmeyer (Kghbln) <karsten@hoffmeyer.info>
@@ -18,7 +19,7 @@
 
 // Ensure that the script cannot be executed outside of MediaWiki
 if ( !defined( 'MEDIAWIKI' ) ) {
-    die( 'This is an extension to MediaWiki. It cannot be run standalone.\n' );
+    die( 'This is an extension to MediaWiki and cannot be run standalone.' );
 }
 
 // Display extension's information on "Special:Version"
@@ -33,6 +34,7 @@ $wgExtensionCredits['other'][] = array(
 		),
 	'descriptionmsg' => 'minimumnamelength-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Minimum_Name_Length',
+	'license-name' => 'BSD-2-Clause'
 );
 
 // Minimum username length to enforce
