@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"minimumnamelength-desc": "Овоможува наметнување на минимална должина на корисничко име",
+	"minimumnamelength-error": "Корисничкото име ви е прекратко. Треба да е долго барем  $1."
+}
