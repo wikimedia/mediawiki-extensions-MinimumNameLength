@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sjoerddebruin"
+		]
+	},
+	"minimumnamelength-error": "Uw gebruikersnaam is te kort. De minimale lengte is $1."
+}
