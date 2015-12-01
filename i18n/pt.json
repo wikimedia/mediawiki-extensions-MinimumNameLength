@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vitorvicentevalente"
+		]
+	},
+	"minimumnamelength-error": "O seu nome de utilizador(a) é demasiado curto. O mínimo de carateres permitidos é $1."
+}
