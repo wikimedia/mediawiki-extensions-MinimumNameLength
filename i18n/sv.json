@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Jopparn"
 		]
 	},
-	"minimumnamelength-error": "Din användarnamn är för kort. Den minsta tillåtna längden är $1."
+	"minimumnamelength-error": "Ditt användarnamn är för kort. Den minsta tillåtna längden är $1."
 }
