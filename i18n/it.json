@@ -5,5 +5,5 @@
 		]
 	},
 	"minimumnamelength-desc": "Consente di far rispettare una lunghezza minima al nome utente",
-	"minimumnamelength-error": "Il nome utente è troppo breve. La lunghezza minima richiesta è di $1."
+	"minimumnamelength-error": "Il nome utente è troppo breve. La lunghezza minima richiesta è di {{PLURAL:$1|un carattere|$1 caratteri}}."
 }

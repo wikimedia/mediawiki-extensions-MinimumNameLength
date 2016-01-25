@@ -5,5 +5,5 @@
 		]
 	},
 	"minimumnamelength-desc": "允许强制指定最短用户名长度",
-	"minimumnamelength-error": "您的用户名太短。最小长度要求为$1。"
+	"minimumnamelength-error": "您的用户名太短。最小长度要求为$1个{{PLURAL:$1|字符}}。"
 }
