@@ -4,5 +4,5 @@
 			"Sujiniku"
 		]
 	},
-	"minimumnamelength-error": "利用者名が短すぎます。最低でも $1 の長さが必要です。"
+	"minimumnamelength-error": "利用者名が短すぎます。最低でも $1 文字の長さが必要です。"
 }
