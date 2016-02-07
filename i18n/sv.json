@@ -5,5 +5,5 @@
 			"Jopparn"
 		]
 	},
-	"minimumnamelength-error": "Ditt användarnamn är för kort. Den minsta tillåtna längden är $1."
+	"minimumnamelength-error": "Ditt användarnamn är för kort. Den minsta tillåtna längden är {{PLURAL:$1|ett tecken|$1 tecken}}."
 }
