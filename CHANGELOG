@@ -3,9 +3,11 @@ The CHANGELOG of the Minimum Name Length extension to MediaWiki.
 
 == Version 1.2.1 ==
 
-THIS IS NOT A RELEASE YET.
+Released on March 10, 2016.
 
 * Migrated wfMsg* to wfMessage
+* Move the extension's action into a separate file
+* Numerous translation updates via translatewiki.net
 
 
 == Version 1.2.0 ==

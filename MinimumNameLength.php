@@ -26,7 +26,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path' => '__FILE__',
 	'name' => 'Minimum Username Length',
-	'version' => '1.2.1-alpha',
+	'version' => '1.2.1',
 	'author' => array(
 		'Rob Church',
 		'Karsten Hoffmeyer',
@@ -40,29 +40,12 @@ $wgExtensionCredits['other'][] = array(
 // Minimum username length to enforce
 $wgMinimumUsernameLength = 10;
 
+// Load exension's class
+$wgAutoloadClasses['MinimumNameLength'] = __DIR__ . '/MinimumNameLength.class.php';
+
 // Register extension messages
 $wgMessagesDirs['MinimumNameLength'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['MinimumNameLength'] = __DIR__ . '/MinimumNameLength.i18n.php';
 
 // Register hooks
-$wgHooks['AbortNewAccount'][] = 'efMinimumNameLength';
-
-/**
- * Hooks account creation and checks the username length, cancelling with an error
- * if the username is too short
- *
- * @param User $user User object being created
- * @param string $error Reference to error message to show
- * @return bool
- */
-function efMinimumNameLength( $user, &$error ) {
-	global $wgMinimumUsernameLength;
-
-	if( mb_strlen( $user->getName() ) < $wgMinimumUsernameLength ) {
-
-		$error = wfMessage( 'minimumnamelength-error' )->numParams( $wgMinimumUsernameLength )->plain();
-		return false;
-	}
-
-	return true;
-}
+$wgHooks['AbortNewAccount'][] = 'MinimumNameLength::onAbortNewAccount';
