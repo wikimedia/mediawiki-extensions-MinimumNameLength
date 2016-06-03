@@ -5,7 +5,7 @@
  *
  * @link https://www.mediawiki.org/wiki/Extension:Minimum_Name_Length Documentation
  * @link https://www.mediawiki.org/wiki/Extension_talk:Mimimum_Name_Length Support
- * @link https://git.wikimedia.org/summary/mediawiki%2Fextensions%2FMinimumNameLength.git Source Code
+ * @link https://phabricator.wikimedia.org/diffusion/EMNL/repository/master/ Source Code
  *
  * @file
  * @ingroup Extensions
@@ -26,7 +26,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path' => '__FILE__',
 	'name' => 'Minimum Username Length',
-	'version' => '1.2.1',
+	'version' => '1.2.2',
 	'author' => array(
 		'Rob Church',
 		'Karsten Hoffmeyer',

@@ -1,6 +1,14 @@
 The CHANGELOG of the Minimum Name Length extension to MediaWiki.
 
 
+== Version 1.2.2 ==
+
+Released on June 4, 2016.
+
+* Fixed PHP Strict Standards notice "non-static method should not be called statically"
+* Added translation updates from translatewiki.net
+
+
 == Version 1.2.1 ==
 
 Released on March 10, 2016.

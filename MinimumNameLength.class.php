@@ -20,7 +20,7 @@
 
 class MinimumNameLength {
 
-	public function onAbortNewAccount( $user, &$error ) {
+	public static function onAbortNewAccount( $user, &$error ) {
 		global $wgMinimumUsernameLength;
 
 		if( mb_strlen( $user->getName() ) < $wgMinimumUsernameLength ) {
