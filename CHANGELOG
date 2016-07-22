@@ -1,5 +1,8 @@
 The CHANGELOG of the Minimum Name Length extension to MediaWiki.
 
+== Version 1.3.0 ==
+* [BREAKING CHANGE] Converted the extension to use extension registration, instead of PHP entry point.
+  This breaks compatibility with MediaWiki versions older than 1.25.0.
 
 == Version 1.2.2 ==
 

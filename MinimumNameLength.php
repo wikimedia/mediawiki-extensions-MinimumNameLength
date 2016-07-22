@@ -16,36 +16,16 @@
  *
  * @license http://www.opensource.org/licenses/BSD-2-Clause BSD 2-clause
  */
-
-// Ensure that the script cannot be executed outside of MediaWiki
-if ( !defined( 'MEDIAWIKI' ) ) {
-    die( 'This is an extension to MediaWiki and cannot be run standalone.' );
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'MinimumNameLength' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['MinimumNameLength'] = __DIR__ . '/i18n';
+	/* wfWarn(
+		'Deprecated PHP entry point used for Minimum Username Length extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	); */
+	return true;
+} else {
+	die( 'This version of the Minimum Username Length extension requires MediaWiki 1.25+' );
 }
-
-// Display extension's information on "Special:Version"
-$wgExtensionCredits['other'][] = array(
-	'path' => '__FILE__',
-	'name' => 'Minimum Username Length',
-	'version' => '1.2.2',
-	'author' => array(
-		'Rob Church',
-		'Karsten Hoffmeyer',
-		'...'
-		),
-	'descriptionmsg' => 'minimumnamelength-desc',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:Minimum_Name_Length',
-	'license-name' => 'BSD-2-Clause'
-);
-
-// Minimum username length to enforce
-$wgMinimumUsernameLength = 10;
-
-// Load exension's class
-$wgAutoloadClasses['MinimumNameLength'] = __DIR__ . '/MinimumNameLength.class.php';
-
-// Register extension messages
-$wgMessagesDirs['MinimumNameLength'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['MinimumNameLength'] = __DIR__ . '/MinimumNameLength.i18n.php';
-
-// Register hooks
-$wgHooks['AbortNewAccount'][] = 'MinimumNameLength::onAbortNewAccount';
