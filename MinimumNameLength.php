@@ -21,11 +21,11 @@ if ( function_exists( 'wfLoadExtension' ) ) {
 	// Keep i18n globals so mergeMessageFileList.php doesn't break
 	$wgMessagesDirs['MinimumNameLength'] = __DIR__ . '/i18n';
 	/* wfWarn(
-		'Deprecated PHP entry point used for Minimum Username Length extension. ' .
+		'Deprecated PHP entry point used for Minimum Name Length extension. ' .
 		'Please use wfLoadExtension instead, ' .
 		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
 	); */
 	return true;
 } else {
-	die( 'This version of the Minimum Username Length extension requires MediaWiki 1.25+' );
+	die( 'This version of the Minimum Name Length extension requires MediaWiki 1.25+' );
 }
