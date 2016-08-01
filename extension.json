@@ -1,11 +1,15 @@
 {
 	"name": "Minimum Name Length",
-	"version": "1.3.0",
+	"version": "2.0.0",
 	"author": [
 		"Rob Church",
 		"Karsten Hoffmeyer",
+		"Florian Schmidt",
 		"..."
 	],
+	"requires": {
+		"MediaWiki": ">= 1.27.0"
+	},
 	"url": "https://www.mediawiki.org/wiki/Extension:Minimum_Name_Length",
 	"descriptionmsg": "minimumnamelength-desc",
 	"license-name": "BSD-2-Clause",
@@ -16,10 +20,14 @@
 		]
 	},
 	"AutoloadClasses": {
-		"MinimumNameLength": "MinimumNameLength.class.php"
+		"MinimumNameLengthPreAuthenticationProvider": "includes/auth/MinimumNameLengthPreAuthenticationProvider.php"
 	},
-	"Hooks": {
-		"AbortNewAccount": "MinimumNameLength::onAbortNewAccount"
+	"AuthManagerAutoConfig": {
+		"preauth": {
+			"MinimumNameLengthPreAuthenticationProvider": {
+				"class": "MinimumNameLengthPreAuthenticationProvider"
+			}
+		}
 	},
 	"config": {
 		"MinimumUsernameLength": 10
