@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Hamilton Abreu"
 		]
 	},
-	"minimumnamelength-error": "O seu nome de utilizador(a) é demasiado curto. O mínimo de carateres permitidos é $1."
+	"minimumnamelength-error": "O seu nome de utilizador(a) é demasiado curto. O mínimo de caracteres permitidos é {{PLURAL:$1|um carácter|$1 caracteres}}."
 }
