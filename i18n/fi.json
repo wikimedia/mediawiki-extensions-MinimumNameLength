@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"minimumnamelength-error": "Käyttäjänimesi on liian lyhyt. Vähimmäisvaatimus pituus on {{PLURAL:$1|yksi merkki|$1 merkkiä}}."
+}
