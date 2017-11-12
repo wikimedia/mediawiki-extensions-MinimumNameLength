@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Mainframe98"
 		]
 	},
-	"minimumnamelength-error": "Uw gebruikersnaam is te kort. De minimale lengte is $1."
+	"minimumnamelength-desc": "Voegt de mogelijkheid toe om een minimum aantal tekens in de gebruikersnaam te verplichten",
+	"minimumnamelength-error": "Uw gebruikersnaam is te kort. De minimale vereiste lengte is {{PLURAL:$1|één teken|$1 tekens}}."
 }
