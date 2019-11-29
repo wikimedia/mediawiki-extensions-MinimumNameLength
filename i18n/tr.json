@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"HakanIST"
+			"HakanIST",
+			"BaRaN6161 TURK"
 		]
 	},
 	"minimumnamelength-desc": "Asgari kullanıcı adı uzunluğu zorunlu kılmayı sağlar",
-	"minimumnamelength-error": "Kullanıcı adınız çok kısa. En az $1 karakter olmalı."
+	"minimumnamelength-error": "Kullanıcı adın çok kısa. Gerekli minimum uzunluk {{PLURAL:$1|bir karakter|$1 karakter}}."
 }
