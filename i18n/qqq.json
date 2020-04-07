@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Beta16",
 			"Kghbln",
 			"Purodha",
-			"The Evil IP address",
-			"Beta16"
+			"The Evil IP address"
 		]
 	},
 	"minimumnamelength-desc": "{{desc|name=Minimum Name Length|url=https://www.mediawiki.org/wiki/Extension:Minimum_Name_Length}}",

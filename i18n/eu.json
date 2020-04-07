@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Subi",
-			"Sator"
+			"Sator",
+			"Subi"
 		]
 	},
 	"minimumnamelength-error": "Zure erabiltzaile-izena laburregia da. Beharrezko gutxieneko luzera {{PLURAL:$1|karaktere bat da|$1 karaktere dira}}."

@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"HakanIST",
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"HakanIST"
 		]
 	},
 	"minimumnamelength-desc": "Asgari kullanıcı adı uzunluğu zorunlu kılmayı sağlar",
