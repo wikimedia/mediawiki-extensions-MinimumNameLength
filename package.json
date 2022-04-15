@@ -1,4 +1,5 @@
 {
+	"name": "MinimumNameLength",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
