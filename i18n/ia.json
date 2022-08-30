@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"minimumnamelength-desc": "Permitte imponer un longitude minime del nomine de usator",
+	"minimumnamelength-error": "Tu nomine de usator es troppo curte. Le longitude minime es {{PLURAL:$1|un character|$1 characteres}}."
+}
