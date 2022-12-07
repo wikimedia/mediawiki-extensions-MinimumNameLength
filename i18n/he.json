@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"minimumnamelength-desc": "אפשרות לאכוף אורך מינימום של שם משתמש",
+	"minimumnamelength-error": "שם המשתמש שלך קצר מדי. האורך המינימלי הנדרש הוא {{PLURAL:$1|תו אחד|$1 תווים}}."
+}
