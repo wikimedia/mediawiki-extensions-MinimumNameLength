@@ -4,5 +4,6 @@
 			"Milicevic01"
 		]
 	},
+	"minimumnamelength-desc": "Omogućava primenu minimalne dužine korisničkog imena",
 	"minimumnamelength-error": "Korisničko ime je prekratko. Minimalna dužina je {{PLURAL:$1|jedan karakter|$1 karaktera}}."
 }
