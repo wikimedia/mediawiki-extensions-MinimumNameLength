@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"minimumnamelength-desc": "Omogoča uveljavitev minimalne dolžine uporabniškega imena",
+	"minimumnamelength-error": "Vaše uporabniško ime je prekratko. Najmanjša potrebna dolžina je {{PLURAL:$1|en znak|$1 znaka|$1 znaki|$1 znakov}}."
+}
