@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
-	"minimumnamelength-desc": "Permet d’assurer une longueur de nom d’utilisateur minimale",
-	"minimumnamelength-error": "Votre nom d’utilisateur est trop court. La longueur minimale requise est de {{PLURAL:$1|un caractère|$1 caractères}}."
+	"minimumnamelength-desc": "Permet d’assurer une longueur minimale de nom d’utilisateur",
+	"minimumnamelength-error": "Votre nom d’utilisateur est trop court. La longueur minimale requise est d{{PLURAL:$1|’un|de $1}} caractère{{PLURAL:$1||s}}."
 }
