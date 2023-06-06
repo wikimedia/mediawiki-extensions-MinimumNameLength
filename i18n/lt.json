@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"minimumnamelength-desc": "Leidžia taikyti minimalų naudotojo vardo ilgį",
+	"minimumnamelength-error": "Jūsų naudotojo vardas per trumpas. Mažiausias būtinas ilgis yra {{PLURAL:$1| vienas simbolis|$1 simboliai}}."
+}
