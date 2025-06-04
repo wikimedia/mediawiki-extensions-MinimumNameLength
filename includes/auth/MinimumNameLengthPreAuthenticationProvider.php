@@ -16,7 +16,7 @@ class MinimumNameLengthPreAuthenticationProvider
 		global $wgMinimumUsernameLength;
 
 		$value = StatusValue::newGood();
-		if ( $autocreate === false && strlen( $user->getName() ) < $wgMinimumUsernameLength ) {
+		if ( $autocreate === false && mb_strlen($user->getName(), 'UTF-8') < $wgMinimumUsernameLength ) {
 			$value->fatal( wfMessage( 'minimumnamelength-error', Message::numParam(
 				$wgMinimumUsernameLength ) ) );
 		}
