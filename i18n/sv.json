@@ -2,8 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Jopparn",
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
+	"minimumnamelength-desc": "Tillåter att tillämpa en minsta användarnamnslängd",
 	"minimumnamelength-error": "Ditt användarnamn är för kort. Den minsta tillåtna längden är {{PLURAL:$1|ett tecken|$1 tecken}}."
 }
