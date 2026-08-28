@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"minimumnamelength-desc": "Umožňuje vynútiť minimálnu dĺžku používateľského mena",
+	"minimumnamelength-error": "Vaše používateľské meno je príliš krátke. Minimálna požadovaná dĺžka je {{PLURAL:$1|jeden znak|$1 znaky|$1 znakov}}."
+}
